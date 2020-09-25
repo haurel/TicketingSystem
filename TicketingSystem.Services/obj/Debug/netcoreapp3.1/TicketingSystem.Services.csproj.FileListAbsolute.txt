@@ -1,0 +1,24 @@
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csprojAssemblyReference.cache
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.AssemblyInfoInputs.cache
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.AssemblyInfo.cs
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csproj.CoreCompileInputs.cache
+D:\Projects\WebApplication1\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.deps.json
+D:\Projects\WebApplication1\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.dll
+D:\Projects\WebApplication1\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.pdb
+D:\Projects\WebApplication1\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\WebApplication1\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csproj.CopyComplete
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.dll
+D:\Projects\WebApplication1\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.pdb
+D:\Projects\Ticketing System\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.deps.json
+D:\Projects\Ticketing System\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.dll
+D:\Projects\Ticketing System\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Services.pdb
+D:\Projects\Ticketing System\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\Ticketing System\TicketingSystem.Services\bin\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csprojAssemblyReference.cache
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.AssemblyInfoInputs.cache
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.AssemblyInfo.cs
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csproj.CoreCompileInputs.cache
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.csproj.CopyComplete
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.dll
+D:\Projects\Ticketing System\TicketingSystem.Services\obj\Debug\netcoreapp3.1\TicketingSystem.Services.pdb

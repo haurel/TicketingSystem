@@ -1,0 +1,9 @@
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.deps.json
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.dll
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.pdb
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.csprojAssemblyReference.cache
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.AssemblyInfoInputs.cache
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.AssemblyInfo.cs
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.dll
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.pdb

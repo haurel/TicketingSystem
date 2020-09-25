@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TicketingSystem.Services/1.0.0": {
+        "dependencies": {
+          "TicketingSystem.Core": "1.0.0"
+        },
+        "runtime": {
+          "TicketingSystem.Services.dll": {}
+        }
+      },
+      "TicketingSystem.Core/1.0.0": {
+        "runtime": {
+          "TicketingSystem.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicketingSystem.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingSystem.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\TicketingSystem.Core.deps.json
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\WebApplication1\DemoLibrary\bin\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\TicketingSystem.Core.AssemblyInfoInputs.cache
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\TicketingSystem.Core.AssemblyInfo.cs
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\TicketingSystem.Core.csproj.CoreCompileInputs.cache
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\WebApplication1\DemoLibrary\obj\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
+D:\Projects\Ticketing System\TicketingSystem.Core\bin\Debug\netcoreapp3.1\TicketingSystem.Core.deps.json
+D:\Projects\Ticketing System\TicketingSystem.Core\bin\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\Ticketing System\TicketingSystem.Core\bin\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
+D:\Projects\Ticketing System\TicketingSystem.Core\obj\Debug\netcoreapp3.1\TicketingSystem.Core.AssemblyInfoInputs.cache
+D:\Projects\Ticketing System\TicketingSystem.Core\obj\Debug\netcoreapp3.1\TicketingSystem.Core.AssemblyInfo.cs
+D:\Projects\Ticketing System\TicketingSystem.Core\obj\Debug\netcoreapp3.1\TicketingSystem.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Ticketing System\TicketingSystem.Core\obj\Debug\netcoreapp3.1\TicketingSystem.Core.dll
+D:\Projects\Ticketing System\TicketingSystem.Core\obj\Debug\netcoreapp3.1\TicketingSystem.Core.pdb
