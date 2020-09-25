@@ -16,33 +16,11 @@ namespace TicketingSystem.Data.Repositories
         {
         }
 
-        //internal IDbConnection Connection
-        //{
-        //    get
-        //    {
-        //        return new SqlConnection("");
-        //    }
-        //}
-
-        //public Task<IEnumerable<TEntity>> GetAllSync(string query, object parameters = null)
-        //{
-        //    using(IDbConnection connection = Connection)
-        //    {
-        //        connection.Open();
-        //        return (connection.QueryAsync<TEntity>(query));
-        //    }
-        //}
-        //public ValueTask<TEntity> GetByIdAsync(int id)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-
-        public Task<IEnumerable<TEntity>> Query(string query, object parameters = null)
+        public Task<IEnumerable<TEntity>> Query(string query, object parameters = null, IDbTransaction transaction = null)
         {
             try
             {
-                return Task.FromResult(Connection.Query<TEntity>(query, parameters).ToList() as IEnumerable<TEntity>);
+                return Task.FromResult(Connection.Query<TEntity>(query, parameters, transaction).ToList() as IEnumerable<TEntity>);
             }
             catch (Exception)
             {
@@ -55,8 +33,6 @@ namespace TicketingSystem.Data.Repositories
         {
             try
             {
-                //var result = Connection.Query<TEntity>(query, parameters, transaction).First();
-                //return default;
                 return new ValueTask<TEntity>(Task.FromResult(Connection.Query<TEntity>(query, parameters, transaction).First()));
             }
             catch (Exception)

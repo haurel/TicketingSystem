@@ -9,7 +9,7 @@ namespace TicketingSystem.Core.Repositories
     public interface IRepository<TEntity> where TEntity : class
     {
         ValueTask<TEntity> QuerySingle(string query, object parameters = null, IDbTransaction transaction = null);
-        Task<IEnumerable<TEntity>> Query(string query, object parameters = null);
+        Task<IEnumerable<TEntity>> Query(string query, object parameters = null, IDbTransaction transaction = null);
         Task Insert(TEntity obj);
         Task Update(TEntity obj);
         Task Save();

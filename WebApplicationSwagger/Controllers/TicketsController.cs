@@ -33,6 +33,16 @@ namespace TicketingSystem.API.Controllers
             return Ok(ticketResource);
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<TicketResource>>> GetTickets()
+        {
+            var ticket = await _ticketService.GetAllWithUser();
+            var ticketResource = _mapper.Map<IEnumerable<Ticket>, IEnumerable<TicketResource>>(ticket);
+
+            return Ok(ticketResource);
+
+        }
+
 
     }
 }

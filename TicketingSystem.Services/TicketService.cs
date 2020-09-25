@@ -21,7 +21,7 @@ namespace TicketingSystem.Services
 
         public Task<IEnumerable<Core.Models.Ticket>> GetAllWithUser()
         {
-            throw new NotImplementedException();
+            return _unitOfWork.Tickets.GetAllTickes();
         }
 
         public ValueTask<Core.Models.Ticket> GetTicketById(int id)

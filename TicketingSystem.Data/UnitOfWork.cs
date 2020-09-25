@@ -12,7 +12,6 @@ namespace TicketingSystem.Data
     {
         private IDbConnection _connection;
         private IDbTransaction _transaction;
-        //public IUserRepository Users { get { return Users ?? (Users = new UsersRepository())} }
         private ITicketRepository _tickets;
         private bool _disposed;
 
