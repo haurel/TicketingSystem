@@ -4,9 +4,8 @@ using TicketingSystem.Core.Repositories;
 
 namespace TicketingSystem.Core
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
-        ITicketRepository Tickets { get; }
-        void CommitAsync();
+        ITicketRepository TicketRepository { get; }
     }
 }

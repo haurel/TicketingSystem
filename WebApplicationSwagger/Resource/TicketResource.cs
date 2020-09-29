@@ -8,7 +8,7 @@ namespace TicketingSystem.API.Resource
     public class TicketResource
     {
         public int TicketId { get; set; }
-        public DateTime DataCreated { get; set; }
+        public DateTime DateCreated { get; set; }
         public string Name { get; set; }
         public int IssuerUserId { get; set; }
         public DateTime Deadline { get; set; }

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "tUxf+BLMRfN2mxUDCq8o1/Sv5cMQJW1SQzGmxwH71IPhOlwYscZft0Qff4rKOwurNu7Jip3FgKrAneIBGRi+iw==",
+  "dgSpecHash": "sxFap6ItKNPoj0P0zA2sHYXdcRaEC2m+lZ44IT1fPs8IQKJ8f4Z2+lyhX9p3kw+i4oLsKwgZaQ+JiA8oxIW1tQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Ticketing System\\TicketingSystem.Core\\TicketingSystem.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\haurel\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\haurel\\.nuget\\packages\\dapper.contrib\\2.0.35\\dapper.contrib.2.0.35.nupkg.sha512",
+    "C:\\Users\\haurel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\haurel\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\haurel\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using TicketingSystem.Core.Models;
 
 namespace TicketingSystem.Core.Repositories
 {
-    public interface ITicketRepository : IRepository<Ticket>
+    public interface ITicketRepository
     {
-        Task<IEnumerable<Ticket>> GetAllTickes();
-        ValueTask<Ticket> GetTicketById(int ticketId);
+        Task<IEnumerable<Ticket>> GetAllTickets();
+        ValueTask<Ticket> GetTicketById(int id);
+        Task<int> InsertTicket(Ticket newTicket);
+        Task<Ticket> UpdateTicket(int id, Ticket ticketToBeUpdated);
+        Task<int> DeleteTicket(int id);
+         
     }
 }

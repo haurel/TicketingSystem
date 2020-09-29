@@ -11,7 +11,7 @@ namespace TicketingSystem.Core.Services
         Task<IEnumerable<Ticket>> GetAllWithUser();
         ValueTask<Ticket> GetTicketById(int id);
         Task<IEnumerable<Ticket>> GetTicketsByUserId(int userId);
-        Task<Ticket> CreateTicket(Ticket newTicket);
-        Task UpdateTicket(Ticket ticketToBeUpdated, Ticket ticket);
+        Task<int> InsertTicket(Ticket newTicket);
+        Task<Ticket> UpdateTicket(int id, Ticket ticketToBeUpdated);
     }
 }

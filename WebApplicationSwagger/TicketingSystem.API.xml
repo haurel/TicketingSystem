@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.API</name>
+    </assembly>
+    <members>
+        <member name="M:TicketingSystem.API.Controllers.TicketsController.GetTicketById(System.Int32)">
+            <summary>
+            Get a specific Ticket.
+            </summary>
+            
+            <returns> Return a ticket </returns>
+            <param name="id"></param>
+            <response code="500">If the item not exist</response>
+        </member>
+        <member name="M:TicketingSystem.API.Controllers.TicketsController.GetTickets">
+            <summary>
+            Get All Tickets
+            </summary>
+            <returns>List of all Tickets </returns>
+        </member>
+        <member name="M:TicketingSystem.API.Controllers.TicketsController.InsertTicket(TicketingSystem.API.Resource.TicketResource)">
+            <summary>
+            Creates a Ticket
+            </summary>
+            <remarks>
+            
+                POST api/ticket
+                {
+                    "ticketId": 0,
+                    "dataCreated": "2020-09-29T19:11:09.590Z",
+                    "name": "string",
+                    "issuerUserId": 0,
+                    "deadline": "2020-09-29T19:11:09.590Z",
+                    "statusId": 0
+                }
+            
+            </remarks>
+            <param name="newTicket"></param>
+            <returns>New Created Ticket Item</returns>
+            <response code="201">Returns the current IDENTITY from databse</response>
+            <response code="400">If the item is null</response>
+        </member>
+        <member name="M:TicketingSystem.API.Controllers.TicketsController.UpdateTicket(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{TicketingSystem.API.Resource.TicketResource})">
+            <summary>
+            Partial Update Ticket
+            </summary>
+            <remarks>
+            
+                PATCH api/ticket/{id}
+                [
+                    {
+                        "path": "/name",
+                        "op": "replace",
+                        "value" : "new-ticket-name"
+                    },
+                    {
+                        "path": "/userId",
+                        "op": "replace",
+                        "value" : "new-user-id"
+                    }
+                ]
+                .....
+            
+            </remarks>
+            <param name="id"></param>
+            <param name="patch"></param>
+            <returns>Updated Ticket Item</returns>
+            <response code="201">Returns the current Ticket after update </response>
+            <response code="400">If the op is failed</response>
+        </member>
+    </members>
+</doc>

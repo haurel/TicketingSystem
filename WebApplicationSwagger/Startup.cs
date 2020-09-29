@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,7 +9,16 @@ using TicketingSystem.Services;
 using TicketingSystem.Data;
 using Microsoft.OpenApi.Models;
 using AutoMapper;
-using TicketingSystem.API.Mapper;
+using TicketingSystem.Data.Infrastructure;
+using TicketingSystem.Core.Repositories;
+using TicketingSystem.Data.Repositories;
+using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
+using System.Reflection;
+using System.IO;
+using System;
+using TicketingSystem.API.Examples;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace WebApplication2
 {
@@ -27,23 +34,35 @@ namespace WebApplication2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddControllersWithViews();
-            //// In production, the Angular files will be served from this directory
-            //services.AddSpaStaticFiles(configuration =>
-            //{
-            //    configuration.RootPath = "ClientApp/dist";
-            //});
             services.AddControllers();
 
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
-            string conString = string.Format("Server={0}; Database={1}; Trusted_Connection = SSPI;", "DESKTOP-PDK1CV0", "TicketingSystem-Demo");
-            services.AddScoped<IUnitOfWork>(_ => new UnitOfWork(conString));
+            services.AddMvc().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+                options.SerializerSettings.Formatting = Formatting.Indented;
+                
+            });
+
+            services.AddTransient<IConnectionFactory, ConnectionFactory>();
+            services.AddTransient<ITicketRepository, TicketRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<ITicketService, TicketService>();
+
+
+            services.AddSwaggerExamplesFromAssemblyOf<TicketExamples>();
 
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Ticketing System", Version = "v1" });
+                //options.OperationFilter<ExamplesOperationFilter>();
+                options.ExampleFilters();
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                options.IncludeXmlComments(xmlPath);
             });
+
+            
 
             services.AddAutoMapper(typeof(Startup));
         }
@@ -97,6 +116,8 @@ namespace WebApplication2
                 c.RoutePrefix = "";
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My TicketingSystem V1");
             });
+
+            
         }
     }
 }

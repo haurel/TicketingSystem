@@ -18,7 +18,7 @@ D:\Projects\Ticketing System\TicketingSystem.Data\bin\Debug\netcoreapp3.1\Ticket
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.csprojAssemblyReference.cache
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.AssemblyInfoInputs.cache
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.AssemblyInfo.cs
-D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.csproj.CoreCompileInputs.cache
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.csproj.CopyComplete
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.dll
 D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.pdb
+D:\Projects\Ticketing System\TicketingSystem.Data\obj\Debug\netcoreapp3.1\TicketingSystem.Data.csproj.CoreCompileInputs.cache

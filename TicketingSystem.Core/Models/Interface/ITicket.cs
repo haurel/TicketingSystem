@@ -11,7 +11,7 @@ namespace TicketingSystem.Core.Models
         DateTime DateCreated { get; set; }
         string Name { get; set; }
         int IssuerUserId { get; set; }
-        DateTime Deadline { get; set; }
+        DateTime DeadLine { get; set; }
         int StatusId { get; set; }
     }
 }
